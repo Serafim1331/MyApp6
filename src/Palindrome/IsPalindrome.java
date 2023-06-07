@@ -10,7 +10,8 @@ public class IsPalindrome {
             }
 
         }
-        return reversed.toString().equalsIgnoreCase(str2);
+        String reversedStr = reversed.toString();
+        return reversedStr.equalsIgnoreCase(str2);
     }
 
 }

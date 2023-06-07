@@ -1,4 +1,9 @@
 
+<<<<<<< HEAD
+=======
+import Palindrome.IsPalindrome;
+
+>>>>>>> ee8b130 (StringsAndSymbols)
 import java.util.Random;
 import java.util.Scanner;
 
@@ -31,7 +36,7 @@ public class Main {
 
         //                         Palindrome
         String str2 = "level";
-        boolean result3 = isPalindrome(str2);
+        boolean result3 = IsPalindrome.isPalindrome(str2);
         System.out.println(result3);
         System.out.println("------------------------------");
 
