@@ -1,9 +1,8 @@
 
-<<<<<<< HEAD
-=======
+
 import Palindrome.IsPalindrome;
 
->>>>>>> ee8b130 (StringsAndSymbols)
+
 import java.util.Random;
 import java.util.Scanner;
 
