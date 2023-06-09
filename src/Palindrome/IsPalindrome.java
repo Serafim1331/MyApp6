@@ -5,13 +5,13 @@ public class IsPalindrome {
         StringBuilder reversed = new StringBuilder();
         for (int i = 0; i < str2.length(); i++) {
             char s = str2.charAt(i);
-            if (!Character.isWhitespace(s)) {
-                reversed.append(s);
+            if (Character.isLetterOrDigit(s)) {
+                reversed.append(Character.toLowerCase(s));
             }
 
         }
         String reversedStr = reversed.toString();
-        return reversedStr.equalsIgnoreCase(str2);
+        return reversedStr.equals(reversed.reverse().toString());
     }
 
 }
